@@ -6,7 +6,7 @@ import getpass
 
 # --- CONFIGURAÇÕES ---
 # 1. Coloque o caminho para o seu arquivo PDF da fatura.
-ARQUIVO_PDF = r"Fatura_052025_LUCIANO_7149_MASTER_00159244510307.PDF" # <-- MUDE AQUI
+ARQUIVO_PDF = r"Fatura_052025.PDF" # <-- MUDE AQUI
 
 # 2. Defina o ano da fatura. Com base no seu PDF.
 ANO_DA_FATURA = "2025" # <-- CONFIRME SE ESTE É O ANO CORRETO DAS COMPRAS
