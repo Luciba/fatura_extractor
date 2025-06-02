@@ -25,7 +25,7 @@ O script processa o PDF, identifica o portador do cartão para cada transação,
 1.  **Clone ou baixe este repositório/script:**
     Se estiver no GitHub:
     ```bash
-    git clone https://URL_DO_SEU_REPOSITORIO.git
+    git clone https://github.com/Luciba/fatura_extractor.git
     cd NOME_DO_REPOSITORIO
     ```
     Ou simplesmente baixe o arquivo `card_santa.py`.
