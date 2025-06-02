@@ -1,0 +1,42 @@
+# 1. Ignore tudo por padrão no diretório atual
+*
+
+# 2. Agora, re-inclua (não ignore) os arquivos específicos que você quer subir.
+# O '!' antes do nome do arquivo anula a regra de ignorar para aquele arquivo.
+!card_santa.py
+!README.md
+!requirements.txt
+
+# 3. (Importante!) Se você quer que o próprio arquivo .gitignore seja versionado
+# (o que é uma boa prática), você também precisa re-incluí-lo:
+!.gitignore
+
+# 4. Mesmo com o '*' acima, pode ser bom manter algumas regras explícitas
+# para pastas ou arquivos que você NUNCA quer subir, mesmo que acidentalmente
+# você remova o '*' ou modifique as regras de re-inclusão.
+# Isso também ajuda a evitar que o Git rastreie pastas que podem ser
+# desnecessariamente grandes ou conter informações sensíveis.
+
+# Ambiente Virtual
+venv/
+*.env
+.env
+
+# Arquivos de Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de saída (CSV gerado)
+fatura_processada.csv
+*.csv # Se quiser ignorar todos os CSVs
+*.xlsx # Se quiser ignorar todos os XLSX
+
+# Faturas PDF (se você não quiser subir os arquivos PDF originais)
+*.PDF
+*.pdf
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
